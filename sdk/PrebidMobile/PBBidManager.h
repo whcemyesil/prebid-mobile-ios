@@ -78,6 +78,4 @@ typedef NS_ENUM(NSInteger, PBPrimaryAdServerType) {
                            andTimeout:(int)timeoutInMS
                     completionHandler:(nullable void (^)(void))handler;
 
-- (void)clearBidOnAdObject:(nonnull NSObject *)adObject;
-
 @end
